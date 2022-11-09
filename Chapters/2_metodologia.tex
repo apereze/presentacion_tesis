@@ -59,11 +59,15 @@
     \\~\ 
     \\~\ 
 \begin{enumerate}
-    \item<1-> Las imágenes IR se segmentan en función de Tb, que debe estar por debajo de - 40°C
-    \item<2-> Los contornos de las imágenes IR se calculan para determinar los polígonos ROI, que representan las áreas de precipitación CT.
-    \item<3-> Se seleccionan los polígonos que se cruzan con las zonas de precipitaciones de CT.
-    \item<4-> La distancia desde el centro del CT hasta el punto más alejado que pertenece a las bandas de lluvia se determina para cada cuadrante (es decir, noreste, noroeste, suroeste y sureste). Así se obtienen cuatro radios.
-    \item<4-> Se calcula el radio promedio de los cuatro radios
+    \item<1-> Segmentación a -40°C
+     \\~\
+    \item<2-> Selección de regiones de intéres
+     \\~\
+    \item<3-> Selección de poligonos dentro del campo de vientos
+     \\~\
+    \item<4-> Determinación de los radios por cuadrante
+     \\~\
+    \item<4-> Cálculo del radio promedio
 \end{enumerate}
 \end{frame}
 
