@@ -1,0 +1,20 @@
+% Please add the following required packages to your document preamble:
+
+\begin{table}
+\centering
+\caption{Clasificación de los vientos de los CTs de acuerdo a la escala Saffir-Simpson. Se anexan dos categorías adicionales cuando el CT aún no alcanza la categoría de huracán (Kelman, 2013)}
+\label{tab:1.1}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}cccc@{}}
+\toprule
+\multicolumn{2}{c}{\textbf{Categoría}}               & \begin{tabular}[c]{@{}c@{}}\textbf{Vientos Sostenidos} \\ ($km  h^{-1}$)\end{tabular} & \begin{tabular}[c]{@{}c@{}} \textbf{Tipos de daño debido a}\\  \textbf{los vientos del CT}\end{tabular} \\ \midrule
+\multicolumn{2}{l}{Depresión Tropical (DT)} & \textless 63                                                           & Daños menores                                                                             \\
+\multicolumn{2}{l}{Tormenta Tropical  (TT)}  & 64-118                                                                 & Daños moderados                                                                           \\
+\multirow{5}{*}{Huracán}         & 1        & 119-153                                                                & Vientos muy peligrosos                                                                    \\
+                                 & 2        & 154-177                                                                & Vientos extremadamente peligrosos                                                         \\
+                                 & 3        & 178-208                                                                & Daños devastadores                                                                        \\
+                                 & 4        & 209-251                                                                & Daños catastróficos                                                                       \\
+                                 & 5        & \textgreater 252                                                       & Daños extraordinarios                                                                     \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
